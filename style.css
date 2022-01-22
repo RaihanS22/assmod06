@@ -1,7 +1,7 @@
 /* common slyle */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: o;
+    margin: 0;
 }
 section{
     margin-bottom: 100px;
@@ -20,10 +20,10 @@ section p{
     margin-left: 30px;
 }
 .half-item h1{
-    font-size: 45px;
+    font-size: 50px;
 }
 .user-name span{
-    color: rgb(240, 50, 139);
+    color: rgb(236, 63, 144);
 }
 .half-item img{
     width: 85%;
@@ -34,7 +34,7 @@ section p{
     justify-content: center;
 }
 .btn-link{
-    background-image:  linear-gradient(rgb(231, 110, 177), rgb(230, 20, 149));
+    background-image:  linear-gradient(rgb(243, 140, 197), rgb(223, 46, 155));
     color: #fff;
     text-decoration: none;
     padding: 10px 22px;
@@ -46,10 +46,10 @@ section p{
     background-position: right bottom;
 }
 /* experience-section style */
-.experience-section h1{
+.Experience-section h1{
     font-size: 50px;
 }
-.experience-section .exp-bg h2{
+.Experience-section .exp-bg h2{
     font-size: 40px;
 }
 .exp-bg{
@@ -57,23 +57,24 @@ section p{
     background-repeat: no-repeat; 
     background-position: left center;
 }
-.experience-section h4{
-    color: rgb(238, 156, 3);
+.Experience-section h4{
+    color: rgb(245, 182, 9);
 }
-.experience-section .half-item{
+.Experience-section .half-item {
     box-shadow: 5px 5px 5px 5px #888888;
     width: 45%;
     margin: 70px;
-    padding: 10px 20px;
-}
-.half-item.baby-web{
-    border-image: linear-gradient(rgb(85, 5, 92), rgb(250, 151, 3));
-    border-left: 8px solid;
-    border-image-slice: 1;
+    padding: 10px 22px;
 }
 .half-item.full-stack{
-    border-image: linear-gradient(rgb(128, 4, 4), rgb(20, 2, 71));
     border-left: 8px solid;
+    border-image: linear-gradient(rgb(235, 175, 84), rgb(250, 114, 3));
+    border-image-slice: 1;
+}
+
+.half-item.baby-web{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(6, 2, 248), rgb(5, 253, 253));
     border-image-slice: 1;
 }
 /* footer-section */
